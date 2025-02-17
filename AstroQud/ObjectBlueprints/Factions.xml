@@ -1,0 +1,19 @@
+<factions>
+  <faction
+    Name="Astronauts"
+    DisplayName="Astronauts"
+    Old="false"
+    InitialPlayerReputation="0"
+    PositiveSound="Sounds/Reputation/sfx_reputation_snapjaw_positive"
+    NegativeSound="Sounds/Reputation/sfx_reputation_snapjaw_negative"
+		EmblemTile="Astronauts/AstroExplorer.png"
+    EmblemTileColor="c"
+    EmblemDetailColor="b"
+  >
+    <feeling About="Beasts" Value="0" />
+    <feeling About="*" Value="0" />
+    <interests>
+      <interest Tags="tech,cybernetics,robot" WillBuy="true" WillSell="false" MatchAny="true" Inverse="true" Description="technology" />
+    </interests>
+  </faction>
+<factions/>

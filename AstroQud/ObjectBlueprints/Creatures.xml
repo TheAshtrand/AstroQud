@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <object Name="Ashtrands_AstroExplorer" Inherits="BaseHumanoid">
+    <part Name="Description" Short="Technology is =pronouns.possessive= strength, as an Astronaut Explorer =pronouns.subjective= =verb:prepare:afterpronoun= modern tech to defend =pronouns.objective=self." />
+    <part Name="Render" DisplayName="AstroExplorer" Tile="Astronauts/AstroExplorer.png" ColorString="&amp;C" DetailColor="b" />
+    <part Name="GenericInventoryRestocker" Table="Tier2Wares" />
+
+    <part Name="Brain" Factions="Astronauts-600"/>
+    
+    <inventoryobject Blueprint="Vibro Dagger" Number="1" />
+    <inventoryobject Blueprint="Fullerite Boots" Number="1" />
+    <inventoryobject Blueprint="Laser Pistol" Number="1" />
+    <inventoryobject Blueprint="Nanoweave Vest" Number="1" />
+
+    <skill Name="Short Blade"/>
+    <skill Name="Pistol" />
+
+    <stat Name="Hitpoints" Value="20" />
+    <stat Name="DV" Value="5" />
+    <stat Name="Intelligence" sValue="22" />
+    <stat Name="Agility" sValue="16" />
+
+    <tag Name="DynamicObjectsTable:Robot" />
+    
+  </object>
+
+  <object Name="Ashtrands_AstroWarrior" Inherits="BaseHumanoid">
+    <part Name="Description" Short="Weaponry is =pronouns.possessive= strength, as an Astronaut Warrior =pronouns.subjective= =verb:prepare:afterpronoun= modern Weaponry to defend =pronouns.objective=self." />
+    <part Name="Render" DisplayName="AstroWarrior" Tile="Astronauts/AstroWarrior.png" ColorString="&amp;C" DetailColor="b" />
+
+    <part Name="Brain" Factions="Astronauts-600"/>
+    
+    <inventoryobject Blueprint="Vibro Blade" Number="1" />
+    <inventoryobject Blueprint="Fullerite Boots" Number="1" />
+    <inventoryobject Blueprint="Carbide Shield" Number="1" />
+    <inventoryobject Blueprint="Nanoweave Vest" Number="1" />
+
+    <skill Name="LongBladesProficiency"/>
+    <skill Name="Shield_Slam" />
+
+    <stat Name="Hitpoints" Value="40" />
+    <stat Name="AV" Value="5" />
+    <stat Name="Intelligence" sValue="22" />
+    <stat Name="Strength" sValue="16" />
+
+    <tag Name="DynamicObjectsTable:Robot" />
+    
+  </object>
+
+  <object Name="Ashtrands_AstroTinker" Inherits="BaseHumanoid">
+    <part Name="Description" Short="Usually Tinkering, Wants To Create =pronouns.subjective= Something New And Revolutionary." />
+    <part Name="Render" DisplayName="AstroTinker" Tile="Astronauts/AstroTinker.png" ColorString="&amp;C" DetailColor="b" />
+
+    <part Name="Brain" Factions="Astronauts-600"/>
+    
+    <inventoryobject Blueprint="Laser Pistol" Number="2" />
+    <inventoryobject Blueprint="Fullerite Boots" Number="1" />
+    <inventoryobject Blueprint="Nanoweave Vest" Number="1" />
+
+    <skill Name="Pistol_Akimbo"/>
+    <skill Name="Tinkering_Tinker2" />
+
+    <stat Name="Hitpoints" Value="20" />
+    <stat Name="DV" Value="5" />
+    <stat Name="Intelligence" sValue="22" />
+    <stat Name="Agility" sValue="16" />
+
+    <tag Name="DynamicObjectsTable:Robot" />
+
+    <table Name="Village Tinker 3"/>
+    
+  </object>
+  
+</objects>
